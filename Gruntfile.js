@@ -16,18 +16,18 @@ module.exports = function (grunt) {
 
 
     // wp config variables
-    dbname:   'manos_site', // Name from Data Base
+    dbname:   'your_db_name', // Name from Data Base
     dbuser:   'root', // User from Data Base
-    dbpass:   '', // Pass from Data Base
+    dbpass:   'your_pass', // Pass from Data Base
     dbhost:   'localhost', // Host from Data Base
-    dbprefix: 'mt_', // Prefix from Data Base
+    dbprefix: 'wp_', // Prefix from Data Base
 
     // Installation variables
-    urlToInstall:   'http://localhost/edsa-supermercadomanos.com.br',
-    project_name:   'Supermercado Manos', // Name of the Site
-    admin_user:     'mutech',
-    admin_password: 'P3A7w$)K(xs&3wS$fl',
-    admin_email:    'desenvolvimento@mutech.com.br',
+    urlToInstall:   'your_url_to_wp',
+    project_name:   'your_site_name_to_wp', // Name of the Site
+    admin_user:     'your_admin_user_to_wp',
+    admin_password: 'your_password_to_wp',
+    admin_email:    'your_email_to_wp',
 
     // Directories
     dir: {
