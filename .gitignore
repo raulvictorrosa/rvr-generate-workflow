@@ -1,0 +1,84 @@
+# https://git-scm.com/docs/gitignore
+# https://help.github.com/articles/ignoring-files
+# Example .gitignore files: https://github.com/github/gitignore
+bower_components/
+node_modules/
+vendor/
+composer.lock
+*.log
+sitemap.xml
+sitemap.xml.gz
+*.phar
+www.tar.gz
+
+# Wordpress folders
+wp-admin/
+
+www/wp-content/backup-db/
+www/wp-content/backups/
+www/wp-content/blogs.dir/
+www/wp-content/cache/
+www/wp-content/languages/
+
+# Wordpress Plugins
+www/wp-content/plugins/admin-menu-editor/
+www/wp-content/plugins/ajax-load-more/
+www/wp-content/plugins/akismet/
+www/wp-content/plugins/advanced-custom-fields/
+www/wp-content/plugins/acf-repeater/
+www/wp-content/plugins/block-bad-queries/
+www/wp-content/plugins/contact-form-7/
+www/wp-content/plugins/duplicate-post/
+www/wp-content/plugins/facebook-comments-plugin/
+www/wp-content/plugins/google-analytics-dashboard-for-wp/
+www/wp-content/plugins/jetpack/
+www/wp-content/plugins/really-simple-captcha/
+www/wp-content/plugins/remove-category-url/
+www/wp-content/plugins/rvr-testimonials/
+www/wp-content/plugins/strong-testimonials
+www/wp-content/plugins/theme-check/
+www/wp-content/plugins/tinymce-advanced/
+www/wp-content/plugins/ultimate-security-checker/
+www/wp-content/plugins/wordpress-seo/
+www/wp-content/plugins/wp-mail-smtp/
+www/wp-content/plugins/wp-migrate-db/
+www/wp-content/plugins/wp-pagenavi/
+www/wp-content/plugins/wp-polls/
+www/wp-content/plugins/hello.php
+www/wp-content/plugins/index.php
+
+# Wordpress Themes
+www/wp-content/themes/twenty*/
+www/wp-content/themes/index.php
+
+www/wp-content/upgrade/
+www/wp-content/uploads/
+
+www/wp-content/advanced-cache.php
+www/wp-content/wp-cache-config.php
+www/wp-content/index.php
+
+www/wp-includes/
+
+# Wordpress root files
+.DS_Store
+.htaccess
+.phar
+.sass-cache
+www/index.php
+license.txt
+readme.html
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config.php
+wp-config-sample.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php

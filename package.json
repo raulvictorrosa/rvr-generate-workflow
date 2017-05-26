@@ -1,0 +1,39 @@
+{
+  "name": "rvr-generate-workflow",
+  "version": "0.1.0",
+  "description": "Generate workflow to work with wordpress.",
+  "keywords": [
+    "rvr",
+    "generate",
+    "workflow",
+    "wordpress"
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://bitbucket.org/mutechwebsolutions/hlodontologia/overview",
+  "bugs": "https://bitbucket.org/mutechwebsolutions/hlodontologia/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org:mutechwebsolutions/hlodontologia.git"
+  },
+  "author": {
+    "name": "Raul Victor Rosa",
+    "email": "desenvolvimento@mutech.com.br",
+    "url": "https://github.com/raulvictorrosa/"
+  },
+  "contributors": [
+    {
+      "name": "Raul Victor Rosa",
+      "email": "raulvictorrosa@gmail.com",
+      "url": "https://github.com/raulvictorrosa"
+    }
+  ],
+  "scripts": {
+    "install": "grunt install"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-notify": "^0.4.5",
+    "grunt-shell": "^2.1.0",
+  },
+  "private": true
+}
